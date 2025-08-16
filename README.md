@@ -77,7 +77,7 @@ Semantic tags that add meaning to text:
   - `loading="eager"` → loads image immediately  
   - `alt` → fallback text if image fails  
 
-  ### 9. Miscellaneous
+### 9. Miscellaneous
 
   - `<hr>` → horizontal rule for separation  
   - `<h2>`, `<h3>` → subheadings  
