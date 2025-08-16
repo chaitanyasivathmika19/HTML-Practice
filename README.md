@@ -71,10 +71,14 @@ Semantic tags that add meaning to text:
 <div popover id="mydiv"> ... </div>
 <button popovertarget="mydiv">Click me!</button>
 
-- **Images** – `<img src="..." loading="eager" alt="Lazy cat">`  
+
+### 8. Images
+- `<img src="..." loading="eager" alt="Lazy cat">`  
   - `loading="eager"` → loads image immediately  
   - `alt` → fallback text if image fails  
-- **Miscellaneous**  
+
+  ### 9. Miscellaneous
+
   - `<hr>` → horizontal rule for separation  
   - `<h2>`, `<h3>` → subheadings  
   - Inline styles in `<div>` (example: black background, white text)  
