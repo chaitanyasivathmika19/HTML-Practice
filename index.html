@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Logical Text Formatting Example</title>
+
+</head>
+<body>
+
+
+  <p><strong>Important:</strong> Always save your work frequently.</p>
+
+  <p><em>Emphasized:</em> This sentence is <em>very important</em> to understand.</p>
+
+  <p><abbr title="HyperText Markup Language">HTML</abbr> is used to structure web content.</p>
+
+  <p><cite>The Great Gatsby</cite> is a novel written by F. Scott Fitzgerald.</p>
+
+  <p>This is some <code>inline code</code> written inside a paragraph.</p>
+
+  <p>To save, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+
+  <p>In math, we use variables like <var>x</var> and <var>y</var>.</p>
+
+  <p><mark>Important Note:</mark> Submissions are due by 5 PM today.</p>
+
+   <p>This price was <strike>$100</strike>, now only $75!</p>
+
+  <p>This is <tt>teletype text</tt> using the old monospaced font.</p>
+  <blockquote>
+    Success is not final, failure is not fatal: It is the courage to continue that counts.
+  </blockquote>
+
+  <!-- q: Short inline quote -->
+  <p>My teacher always says, <q>practice makes perfect</q>.</p>
+
+  <!-- cite: Citation (for a book, article, film, etc.) -->
+  <p><cite>The Alchemist</cite> is a famous novel by Paulo Coelho.</p>
+
+  <!-- abbr: Abbreviation with tooltip -->
+  <p>You should know what <abbr title="HyperText Markup Language">HTML</abbr> stands for.</p>
+
+  <!-- dfn: Defining a new term -->
+  <p><dfn>Algorithm</dfn> is a step-by-step procedure to solve a problem.</p>
+
+        <article>
+        <h2>Learning HTML</h2>
+        <p>
+          HTML is the standard markup language for creating web pages.
+      	</p>
+        <aside>
+            <h3>Did You Know?</h3>
+            <p>
+              HTML stands for HyperText Markup Language.
+          	</p>
+        </aside>
+        <p>
+          It is easy to learn and widely used in web development.
+      	</p>
+    </article>
+   <div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+    <!-- <video height="400" width="300"  src="https://media.geeksforgeeks.org/wp-content/uploads/20190616234019/Canvas.move_.mp4"  type="video/mp4" autoplay>   </video> -->
+<p>Click the input field:</p>
+
+<input type="text" enterkeyhint="send">
+
+<p>And check the "Enter" button on the keyboard.</p>
+
+<!-- <form onsubmit="alert('Form submitted!'); return false;">
+  <input type="text" placeholder="Type your message..." enterkeyhint="sendl">
+   <button type="submit" >Send</button> 
+</form> -->
+<!-- Only numeric keyboard shows up (useful for PINs, OTPs, etc.) -->
+<input type="text" inputmode="numeric" placeholder="Enter your PIN"><hr>
+tab index Example
+<a tabindex="1" href="https://www.google.com/">Google</a><br>
+<a tabindex="3" href="https://www.instagram.com/">instagram</a><br>
+<div tabindex="2">Microsoft</div>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vertical Table with Rowspan and Colspan</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    caption {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<table border="1"  cellpadding="8" cellspacing="0">
+  <caption>Student Report (with Phone & Footer)</caption>
+
+  <!-- Column styling -->
+  <colgroup>
+    <col span="1" style="background-color:#c41313;">
+    <col span="2">
+  </colgroup>
+
+  <thead style="background-color:#13c469;">
+    <tr>
+      <th>Detail</th>
+      <th>Alice</th>
+      <th>Bob</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Roll No</td>
+      <td>101</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Phone</td> <!-- rowspan: 2 rows share this cell -->
+      <td>9876543210</td>
+      <td>9876543211</td>
+    </tr>
+    <tr>
+      <td>Alternate: 9012345678</td>
+      <td>Alternate: 9012345679</td>
+    </tr>
+    <tr>
+      <td>Math</td>
+      <td>90</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td>Science</td>
+      <td>85</td>
+      <td>80</td>
+    </tr>
+  </tbody>
+
+  <tfoot style="background-color:#36c413;">
+    <tr>
+      <td><strong>Total</strong></td>
+      <td><strong>175</strong></td>
+      <td><strong>168</strong></td>
+    </tr>
+    <tr>
+      <td colspan="3"><em>Note: Final scores include internal marks</em></td>
+    </tr>
+  </tfoot>
+</table>
+
+<hr>
+
+<ul type="square">
+  <li>GFG</li>
+  <li>Web Dev</li>
+  <ul type="circle">
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+  <li>Java Script</li>
+</ul>
+<hr>
+<ol type="A" reversed><li>apple</li><li>ball</li></ol>
+<div popover id="mydiv">
+  <h2>Popover</h2>
+  <hr>
+  <p>A popover is an element that is placed on top of everything else.</p>
+  <p>It can be used when you want to tell something important.</p>
+  <button popovertarget="mydiv" popovertargetaction="hide">Close</button>
+</div>
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Fanimals%2Fmammals%2Ffacts%2Fdomestic-cat&psig=AOvVaw3lhWpQu3vT5XhJF0GE_YCu&ust=1752425008781000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiB6oXit44DFQAAAAAdAAAAABAE" loading="eager" alt="Lazy cat">
+
+<button popovertarget="mydiv">Click me!</button><hr>
+<form>
+  <label for="message">Your Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50" placeholder="Write here..."></textarea>
+</form>
+
+<hr><br>
+<form action="/submit">
+  <label for="cars">Select a car:</label><br>
+  <select 
+    id="cars" 
+    name="car" 
+    autocomplete="on" 
+    required 
+    multiple 
+    size="3"
+    
+  >
+    <option value="bmw">BMW</option>
+    <option value="audi">Audi</option>
+    <option value="tesla">Tesla</option>
+  </select>
+  <br>
+  <button type="submit">Submit</button>
+</form>
+
+
+
+  </body>
+</html>
